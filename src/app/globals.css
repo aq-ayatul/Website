@@ -1,0 +1,15 @@
+:root {
+  color-scheme: light;
+  background: #f6f7fb;
+  color: #172033;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* { box-sizing: border-box; }
+body { margin: 0; }
+main { max-width: 800px; margin: 0 auto; padding: 20vh 24px 64px; }
+h1 { font-size: clamp(2.5rem, 7vw, 4.5rem); line-height: 1.08; letter-spacing: -0.05em; }
+p { font-size: 1.125rem; line-height: 1.7; }
+.eyebrow { color: #4258bd; font-size: 0.8rem; font-weight: 700; letter-spacing: 0.15em; }
+.hint { margin-top: 40px; color: #535e72; }
+code { background: #e7eaf3; padding: 4px 8px; border-radius: 5px; overflow-wrap: anywhere; }
